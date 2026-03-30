@@ -39,7 +39,7 @@ jobs:
       - uses: ./.github/actions/setup-rust
 
       - name: Run Membrowse Onboard Action
-        uses: membrowse/membrowse-action/onboard-action@e80eef8697a04ec41df655d3084eff9ea7bfc6b9 # ratchet:membrowse/membrowse-action/onboard-action@v1
+        uses: membrowse/membrowse-action/onboard-action@339b790ea6bea10c70ff318b4aec37ac86954588 # ratchet:membrowse/membrowse-action/onboard-action@v1
         with:
           target_name: ${{ matrix.target_name }}
           num_commits: ${{ github.event.inputs.num_commits }}
